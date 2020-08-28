@@ -1,7 +1,7 @@
 package Beginner;
 
 import java.util.Scanner;
-
+ 
 public class Java0010_CountSetOfCharacters {
 
     public static void main(String[] args) {
