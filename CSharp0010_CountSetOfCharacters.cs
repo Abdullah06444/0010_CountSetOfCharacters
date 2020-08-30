@@ -1,18 +1,17 @@
 ﻿using System;
-using System.Linq;
 using System.Text;
 
 namespace CSharp0010_CountSetOfCharacters
 {
     class CSharp0010_CountSetOfCharacters
     {
-		static void Main(string[] args)
-		{
+        static void Main(string[] args)
+        {
 			int counter = 0, i = 0;
 			char character;
 			StringBuilder result = new StringBuilder();
 			string ch = Console.ReadLine();
-			
+
 			while ((character = char.Parse(ch.Substring(i++, 1))) != '-')
 			{
 				if (character != ' ')
@@ -30,7 +29,7 @@ namespace CSharp0010_CountSetOfCharacters
 						}
 						counter++;
 					}
-			
+
 				//Console.WriteLine(counter + " " + result);
 			}
 			// stringBuilder, toString parametresi ile string yapip 
