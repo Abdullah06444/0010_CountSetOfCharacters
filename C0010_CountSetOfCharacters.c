@@ -4,7 +4,7 @@
 int main()
 {
 
-	int counter = 0, i=0;
+	int counter = 0, i = 0;
 	char character;
 	char result[SIZE];
 
